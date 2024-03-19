@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/title-DqdIHmdD.png" type="image/x-icon">
+    <title>Daily Tasks</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-DwbOxfBZ.css">
+</head>
+
+<body class="bg-[#f1f3f4] max-[300px]:w-fit">
+    <div class="w-full h-32 flex justify-center items-center space-x-2 max-[300px]:w-fit">
+        <span>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAN5JREFUSEvFlbsNwjAQQF9qVqCiBEp6GIAWCqZhHlgCdgBKmIIacpIdOSc5Oew4WIpSWH7P97FdUXhUhfmMKjgCa2CTGdUFuNYM4bUiuAGLTLhffgeWWvBxs7lpa3FC2KgCLwszZo3MFEGKYAK8AZPg11qfgClwAF5hLVNrMAOeDiTwXf1J5+zdv2mgmKArRdLfW2AFaPjDmqKYYO6gcl7OaucCl5Fdg1Di0+LhgwgE4iWS8xBuFljaVCQaPqgg1srZNeg7I/8TFL+uiz84fblNmrdewUlw/aIlQ7oWfgHsUD8ZDE04hgAAAABJRU5ErkJggg==" alt="todo image" class="w-7 lg:w-8 xl:w-9 2xl:w-12">
+        </span>
+        <span class="text-xl font-semibold underline text-blue-500 sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+            My Todo-s
+        </span>
+    </div>
+
+    <div class="flex justify-evenly sm:justify-center sm:space-x-10 h-20 lg:items-center 2xl:items-end max-[300px]:w-fit">
+        <div class="w-[70%]">
+            <input type="text" name="text" id="text" placeholder="Add New Task"
+                class="border-[1px] border-[#696666] rounded-md h-8 placeholder:text-slate-400 px-2  w-full 2xl:h-11 2xl:text-2xl font-serif font-medium">
+        </div>
+        <div>
+            <button class="bg-blue-400 hover:bg-blue-500 px-3 py-1 rounded-md font-medium 2xl:px-4 2xl:text-2xl 2xl:py-2" id = "add">Add</button>
+        </div>
+    </div>
+
+    <div class="w-full flex justify-center items-center relative bottom-6 lg:bottom-1 2xl:bottom-[-20px] max-[300px]:w-fit ">
+        <div class="border-[1px] border-[#a19a9a]  w-[90%] ">
+
+        </div>
+    </div>
+
+    <div class="flex px-4 space-x-1 lg:py-5 2xl:my-8 sm:px-5 md:px-7 xl:px-9 2xl:px-12 max-[300px]:w-fit">
+        <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFBJREFUSEtjZKAxYKSx+QyjFhAM4eEXRPuhfnaE0v8JhgF2BfCQQQ8imltApoNxa6N7JNM8iGhuwWgcwEJgNB8QnxbontGIdxqRKkd9QDCgACaMDBnG0d4uAAAAAElFTkSuQmCC" alt="task image" class="w-7 2xl:w-8"></span>
+        <span class="font-medium text-lg 2xl:text-xl text-[#353637]">Task Lists</span>
+    </div>
+
+    <div id = "task" class=" mt-3 flex flex-col space-y-2 justify-start h-fit w-full max-[300px]:w-fit">
+
+    </div>
+
+    <script src="/assets/index.js"></script>
+</body>
+
+</html>
